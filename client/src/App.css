@@ -1,0 +1,93 @@
+/* ----------- Multiple components ----------- */
+/* Set App component's text alignment to be centered. */
+.App {
+  text-align: center;
+}
+
+/* Tab background color */
+.tabs .li {
+  background-color: #dee2e6;
+}
+
+/* Smaller font for OU and user tables */
+.ouTable,
+.usersTable {
+  font-size: x-small;
+}
+
+/* Ensure text within table cells breaks correctly */
+.ouTable td,
+.usersTable td {
+  word-break: break-word;
+}
+
+/* Smaller font for Add and Edit Repo forms */
+.addRepoForm,
+.editRepoForm {
+  font-size: smaller;
+}
+
+/* ----------- OuCard ----------- */
+/* Smaller font for division list items */
+.divisionsList {
+  font-size: smaller;
+}
+
+/* ----------- Login ---------- */
+/* Add border and rounded corners to login form */
+.loginForm {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: #dee2e6;
+}
+
+/* ----------- UsersCard ----------- */
+/* Style instructional text in UsersCard forms */
+.manageUserFormInstructions {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* ----------- Navbar ----------- */
+/* Style the brand text in the navbar */
+.navBarBrand {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Style regular text in the navbar */
+.navBarText {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+/* Set navbar text hover colour. */
+.navBarText:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ----------- Error/ Success Message Buttons ----------- */
+/* Style the close button for error/success messages */
+.closeMessageButton {
+  text-decoration: none;
+  font-size: x-small;
+}
+/* Set closeMessageButton hover styles. */
+.closeMessageButton:hover {
+  text-decoration: underline;
+  color: #0d6dfd;
+}
+
+.closeMessageButton {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+}
+/* Change close button color on hover */
+.closeMessageButton:hover {
+  color: #000;
+}
