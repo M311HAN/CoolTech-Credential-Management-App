@@ -16,7 +16,7 @@
 
 ## Description
 
-The Cool Tech Credential Management App is an internal web application built to securely manage login credentials for various services like websites, servers, and financial accounts. The app provides user authentication, role-based access control, and resource access management to ensure that only authorized users can view, add, or update credentials based on their assigned roles. The app is structured around Organisational Units (OU), each containing several Divisions, and every division has its own credential repository.
+The Cool Tech Credential Management App is an internal Full Stack web application built to securely manage login credentials for various services like websites, servers, and financial accounts. The app provides user authentication, role-based access control, and resource access management to ensure that only authorized users can view, add, or update credentials based on their assigned roles. The app is structured around Organisational Units (OU), each containing several Divisions, and every division has its own credential repository.
 
 The web app is designed with high security in mind due to the sensitive nature of the credentials stored, ensuring that only authenticated users can interact with the data.
 
