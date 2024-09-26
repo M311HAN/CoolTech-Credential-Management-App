@@ -96,7 +96,7 @@ To install and run the application locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/M311HAN/cooltech-credential-management.git
+   git clone https://github.com/M311HAN/cooltech-credential-management..git
    cd cooltech-credential-management
    ```
 
